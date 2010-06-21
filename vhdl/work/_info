@@ -1,0 +1,217 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\fft_core
+T_opt
+ViFD6N6@[PIMWOcAEPE1Z@0
+04 10 3 work user_logic imp 1
+Z1 =1-0013cea8b27c-4c1fc3d9-362-8e4
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 OE;O;6.4;39
+Emodulo
+Z4 w1276886150
+Z5 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 dC:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl
+Z7 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd
+Z8 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd
+l0
+L43
+Z9 Vm0Kgbf448m8N0SHl5eT@;1
+Z10 OE;C;6.4;39
+32
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Z13 !s100 _UTZbOA3AjZ=B`H5D35FI2
+Amodulo_a
+Z14 DEx13 xilinxcorelib 11 cordic_v3_0 0 22 BUhnKEY5Q_GAYTE?zT_Z<0
+R5
+Z15 DEx4 work 6 modulo 0 22 m0Kgbf448m8N0SHl5eT@;1
+l95
+L51
+Z16 VZH<l`Ij=SE4XnIzFlWc7:0
+R10
+32
+Z17 Mx1 4 ieee 14 std_logic_1164
+R11
+R12
+Z18 !s100 68zA<H<WXd4dMQ@>DH29:2
+Emultiplier1
+Z19 w1276887708
+R5
+R6
+Z20 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd
+Z21 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd
+l0
+L43
+Z22 VU?Rg9a<HIhmQB7fz@;iYP0
+R10
+32
+R11
+R12
+Z23 !s100 87aK50Wg]K1C6XSd3XI<71
+Amultiplier1_a
+Z24 DPx13 xilinxcorelib 17 pkg_baseblox_v9_1 0 22 6Dl7aSi0zjQF^e?R20_Y62
+Z25 DPx13 xilinxcorelib 16 prims_utils_v9_1 0 22 4BW^_obEOBic2Jg6<^9e52
+Z26 DPx13 xilinxcorelib 20 prims_constants_v9_1 0 22 f[TEdfGVIC2IGlG:cVFnz2
+Z27 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z28 DPx13 xilinxcorelib 18 pkg_mult_gen_v10_0 0 22 2N:^SS3UjdgHzcWQ2U<UW1
+Z29 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z30 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z31 DPx4 ieee 16 std_logic_signed 0 22 <9<Kcl:S52:oW`F]FQhb20
+Z32 DEx13 xilinxcorelib 14 mult_gen_v10_0 0 22 FLS9?6K>X4l9=DcY8_O>c3
+R5
+Z33 DEx4 work 11 multiplier1 0 22 U?Rg9a<HIhmQB7fz@;iYP0
+l86
+L51
+Z34 V`dcO=81odFBSV7UedNk583
+R10
+32
+Z35 Mx9 4 ieee 14 std_logic_1164
+Z36 Mx8 4 ieee 16 std_logic_signed
+Z37 Mx7 4 ieee 15 std_logic_arith
+Z38 Mx6 4 ieee 11 numeric_std
+Z39 Mx5 13 xilinxcorelib 18 pkg_mult_gen_v10_0
+Z40 Mx4 3 std 6 textio
+Z41 Mx3 13 xilinxcorelib 20 prims_constants_v9_1
+Z42 Mx2 13 xilinxcorelib 16 prims_utils_v9_1
+Z43 Mx1 13 xilinxcorelib 17 pkg_baseblox_v9_1
+R11
+R12
+Z44 !s100 NU;3HdBX1W;oNSb<QaWjf2
+Emultiplier2
+Z45 w1276887880
+R5
+R6
+Z46 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd
+Z47 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd
+l0
+L43
+Z48 Vl75>eP@Ff3Ua1Dl^e2<_a3
+R10
+32
+R11
+R12
+Z49 !s100 ?EPCfgjSjHXdBIiJkRQGB0
+Amultiplier2_a
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R5
+Z50 DEx4 work 11 multiplier2 0 22 l75>eP@Ff3Ua1Dl^e2<_a3
+l86
+L51
+Z51 V3WI2;Ei@fLn5U>ldGMKK^0
+R10
+32
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+R42
+R43
+R11
+R12
+Z52 !s100 a[Q]Kzo4:W=dalhE9ID]E2
+Euser_logic
+Z53 w1276888812
+Z54 DPx19 proc_common_v2_00_a 15 proc_common_pkg 0 22 mQkS[49VfNX_mj<izVm2I3
+R29
+Z55 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R30
+R5
+R6
+Z56 8C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd
+Z57 FC:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd
+l0
+L86
+Z58 VDSCAiICfQ39XokIe]@T:^0
+R10
+32
+R11
+R12
+Z59 !s100 Bm:EaY8K<WeeaL[5:?:9>3
+Aimp
+Z60 DPx4 ieee 16 vital_primitives 0 22 E9g6AWKAc2T]enMfl94If3
+Z61 DPx4 ieee 12 vital_timing 0 22 OBWK>;kUYmkG<OChK2lhV1
+R27
+Z62 DPx6 unisim 4 vpkg 0 22 c`ODGHjZUBfJB[MzVnOPF2
+Z63 DPx6 unisim 11 vcomponents 0 22 D0<;n7J`2TNXbG3EYebJW1
+Z64 DEx4 work 9 xfft_v6_0 0 22 C_nh@RzAQKE>D28n_5ZZ=1
+R50
+R33
+R15
+R54
+R29
+R55
+R30
+R5
+Z65 DEx4 work 10 user_logic 0 22 DSCAiICfQ39XokIe]@T:^0
+l180
+L129
+Z66 Vc;U]W8iTE89Dea[4BlIgE3
+R10
+32
+Z67 Mx10 4 ieee 14 std_logic_1164
+Z68 Mx9 4 ieee 15 std_logic_arith
+Z69 Mx8 4 ieee 18 std_logic_unsigned
+Z70 Mx7 4 ieee 11 numeric_std
+Z71 Mx6 19 proc_common_v2_00_a 15 proc_common_pkg
+Z72 Mx5 6 unisim 11 vcomponents
+Z73 Mx4 6 unisim 4 vpkg
+Z74 Mx3 3 std 6 textio
+Z75 Mx2 4 ieee 12 vital_timing
+Z76 Mx1 4 ieee 16 vital_primitives
+R11
+R12
+Z77 !s100 <JM1m7WM9GK8jEYf<^InJ3
+Exfft_v6_0
+Z78 w1276832310
+R60
+R61
+R27
+R62
+R63
+R5
+R6
+Z79 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd
+Z80 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd
+l0
+L43
+Z81 VC_nh@RzAQKE>D28n_5ZZ=1
+R10
+32
+R11
+R12
+Z82 !s100 QMRikBVCCBZ]2h1074IJD0
+Astructure
+R60
+R61
+R27
+R62
+R63
+R5
+R64
+l2175
+L64
+Z83 VAWImHV=0QOL7Kk^SooWh40
+R10
+32
+Z84 Mx6 4 ieee 14 std_logic_1164
+R72
+R73
+R74
+R75
+R76
+R11
+R12
+Z85 !s100 ef?0JHLTQ_kg8l<VjnaZh1

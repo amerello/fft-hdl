@@ -1,0 +1,33 @@
+m255
+K3
+cModel Technology
+Emodulo
+Z0 !s91 C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd
+Z1 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd|
+Amodulo_a
+Z2 !s91 C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd
+R1
+Emultiplier1
+Z3 !s91 C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd
+Z4 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd|
+Amultiplier1_a
+R3
+R4
+Emultiplier2
+Z5 !s91 C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd
+Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd|
+Amultiplier2_a
+R5
+R6
+Euser_logic
+Z7 !s91 C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd|
+Aimp
+R7
+R8
+Exfft_v6_0
+Z9 !s91 C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd|
+Astructure
+R9
+R10
