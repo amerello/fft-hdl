@@ -42,8 +42,8 @@ Library XilinxCoreLib;
 -- synthesis translate_on
 ENTITY modulo IS
 	port (
-	x_in: IN std_logic_VECTOR(33 downto 0);
-	x_out: OUT std_logic_VECTOR(17 downto 0);
+	x_in: IN std_logic_VECTOR(39 downto 0);
+	x_out: OUT std_logic_VECTOR(20 downto 0);
 	rdy: OUT std_logic;
 	clk: IN std_logic);
 END modulo;
@@ -52,8 +52,8 @@ ARCHITECTURE modulo_a OF modulo IS
 -- synthesis translate_off
 component wrapped_modulo
 	port (
-	x_in: IN std_logic_VECTOR(33 downto 0);
-	x_out: OUT std_logic_VECTOR(17 downto 0);
+	x_in: IN std_logic_VECTOR(39 downto 0);
+	x_out: OUT std_logic_VECTOR(20 downto 0);
 	rdy: OUT std_logic;
 	clk: IN std_logic);
 end component;
@@ -66,7 +66,7 @@ end component;
 			c_has_y_in => 0,
 			c_reg_inputs => 1,
 			c_architecture => 2,
-			c_input_width => 34,
+			c_input_width => 40,
 			c_iterations => 0,
 			c_precision => 0,
 			c_has_rdy => 1,
@@ -90,7 +90,7 @@ end component;
 			c_has_phase_out => 0,
 			c_has_x_in => 1,
 			c_pipeline_mode => -2,
-			c_output_width => 18);
+			c_output_width => 21);
 -- synthesis translate_on
 BEGIN
 -- synthesis translate_off
