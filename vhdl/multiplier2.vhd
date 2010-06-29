@@ -43,9 +43,9 @@ Library XilinxCoreLib;
 ENTITY multiplier2 IS
 	port (
 	clk: IN std_logic;
-	a: IN std_logic_VECTOR(16 downto 0);
-	b: IN std_logic_VECTOR(16 downto 0);
-	p: OUT std_logic_VECTOR(33 downto 0));
+	a: IN std_logic_VECTOR(19 downto 0);
+	b: IN std_logic_VECTOR(19 downto 0);
+	p: OUT std_logic_VECTOR(39 downto 0));
 END multiplier2;
 
 ARCHITECTURE multiplier2_a OF multiplier2 IS
@@ -53,25 +53,25 @@ ARCHITECTURE multiplier2_a OF multiplier2 IS
 component wrapped_multiplier2
 	port (
 	clk: IN std_logic;
-	a: IN std_logic_VECTOR(16 downto 0);
-	b: IN std_logic_VECTOR(16 downto 0);
-	p: OUT std_logic_VECTOR(33 downto 0));
+	a: IN std_logic_VECTOR(19 downto 0);
+	b: IN std_logic_VECTOR(19 downto 0);
+	p: OUT std_logic_VECTOR(39 downto 0));
 end component;
 
 -- Configuration specification 
 	for all : wrapped_multiplier2 use entity XilinxCoreLib.mult_gen_v10_0(behavioral)
 		generic map(
-			c_a_width => 17,
+			c_a_width => 20,
 			c_b_type => 0,
 			c_ce_overrides_sclr => 0,
 			c_opt_goal => 1,
 			c_has_sclr => 0,
 			c_round_pt => 0,
-			c_out_high => 33,
-			c_mult_type => 0,
+			c_out_high => 39,
+			c_mult_type => 1,
 			c_ccm_imp => 0,
 			c_has_load_done => 0,
-			c_pipe_stages => 1,
+			c_pipe_stages => 5,
 			c_has_ce => 0,
 			c_has_zero_detect => 0,
 			c_round_output => 0,
@@ -80,7 +80,7 @@ end component;
 			c_xdevicefamily => "spartan3e",
 			c_a_type => 0,
 			c_out_low => 0,
-			c_b_width => 17,
+			c_b_width => 20,
 			c_b_value => "10000001");
 -- synthesis translate_on
 BEGIN
