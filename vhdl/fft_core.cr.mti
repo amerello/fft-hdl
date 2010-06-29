@@ -1,0 +1,73 @@
+{C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd}
+Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package vcomponents
+-- Loading package textio
+-- Loading package vital_timing
+-- Loading package vital_primitives
+-- Loading package vpkg
+-- Compiling entity xfft_v6_0
+-- Compiling architecture structure of xfft_v6_0
+
+} {} {}} {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/user_logic.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd}
+Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package proc_common_pkg
+-- Compiling entity user_logic
+-- Compiling architecture imp of user_logic
+-- Loading entity modulo
+-- Loading entity multiplier1
+-- Loading entity multiplier2
+-- Loading package vcomponents
+-- Loading package textio
+-- Loading package vital_timing
+-- Loading package vital_primitives
+-- Loading package vpkg
+-- Loading entity xfft_v6_0
+
+} {} {}} {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd}
+Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity multiplier1
+-- Compiling architecture multiplier1_a of multiplier1
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Loading package numeric_std
+-- Loading package textio
+-- Loading package prims_constants_v9_1
+-- Loading package prims_utils_v9_1
+-- Loading package pkg_baseblox_v9_1
+-- Loading package pkg_mult_gen_v10_0
+-- Loading entity mult_gen_v10_0
+
+} {} {}} {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd}
+Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity modulo
+-- Compiling architecture modulo_a of modulo
+-- Loading entity cordic_v3_0
+
+} {} {}} {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd}
+Model Technology ModelSim SE vcom 6.4 Compiler 2008.06 Jun 18 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity multiplier2
+-- Compiling architecture multiplier2_a of multiplier2
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Loading package numeric_std
+-- Loading package textio
+-- Loading package prims_constants_v9_1
+-- Loading package prims_utils_v9_1
+-- Loading package pkg_baseblox_v9_1
+-- Loading package pkg_mult_gen_v10_0
+-- Loading entity mult_gen_v10_0
+
+} {} {}}

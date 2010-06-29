@@ -1,0 +1,1024 @@
+# Reading C:/modeltech_6.4/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.4 Jun 18 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile {C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/fft_core.mpf} 
+# Loading project fft_core
+# Compile of modulo.vhd was successful.
+# Compile of multiplier1.vhd was successful.
+# Compile of multiplier2.vhd was successful.
+# Compile of user_logic.vhd failed with 1 errors.
+# Compile of xfft_v6_0.vhd was successful.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of modulo.vhd was successful.
+# Compile of multiplier1.vhd was successful.
+# Compile of multiplier2.vhd was successful.
+# Compile of user_logic.vhd was successful.
+# Compile of xfft_v6_0.vhd was successful.
+# 5 compiles, 0 failed with no errors. 
+do script.do
+# vsim -voptargs=+acc -t 10ns work.user_logic 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading proc_common_v2_00_a.proc_common_pkg(body)
+# Loading unisim.vcomponents
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading work.user_logic(imp)#1
+# Loading work.modulo(modulo_a)#1
+# Loading xilinxcorelib.prims_constants_v7_0
+# Loading xilinxcorelib.mult_const_pkg_v7_0
+# Loading xilinxcorelib.parm_v7_0_services(body)
+# Loading xilinxcorelib.ccm_v7_0_services(body)
+# Loading xilinxcorelib.sqm_v7_0_services(body)
+# Loading xilinxcorelib.mult_gen_v7_0_services(body)
+# Loading xilinxcorelib.cordic_pack_beh(body)
+# Loading xilinxcorelib.iputils_std_logic_arith(body)
+# Loading xilinxcorelib.iputils_std_logic_signed(body)
+# Loading xilinxcorelib.cordic_v3_0(behavioral)#1
+# Loading ieee.std_logic_signed(body)
+# Loading xilinxcorelib.prims_constants_v9_1
+# Loading xilinxcorelib.prims_utils_v9_1(body)
+# Loading xilinxcorelib.pkg_baseblox_v9_1(body)
+# Loading xilinxcorelib.pkg_mult_gen_v10_0(body)
+# Loading work.multiplier1(multiplier1_a)#1
+# Loading xilinxcorelib.mult_gen_v10_0(behavioral)#1
+# ** Note: returned a simple delay of 5
+#    Time: 0 ns  Iteration: 0  Region: /user_logic/mult1/u0  File: C:/simlab/./XilinxCoreLib/XilinxCoreLib_source.vhd
+# Loading work.multiplier2(multiplier2_a)#1
+# ** Note: returned a simple delay of 5
+#    Time: 0 ns  Iteration: 0  Region: /user_logic/mult2/u0  File: C:/simlab/./XilinxCoreLib/XilinxCoreLib_source.vhd
+# Loading work.xfft_v6_0(structure)#1
+# Loading unisim.vcc(vcc_v)#1
+# Loading unisim.gnd(gnd_v)#1
+# Loading unisim.fd(fd_v)#1
+# Loading unisim.srl16(srl16_v)#1
+# Loading unisim.fde(fde_v)#1
+# Loading unisim.srl16e(srl16e_v)#1
+# Loading unisim.lut2_l(lut2_l_v)#1
+# Loading unisim.lut4_l(lut4_l_v)#1
+# Loading unisim.ramb16_s9_s9(ramb16_s9_s9_v)#1
+# Loading unisim.inv(inv_v)#1
+# Loading unisim.lut1(lut1_v)#1
+# Loading unisim.lut2(lut2_v)#1
+# Loading unisim.lut3(lut3_v)#1
+# Loading unisim.lut4(lut4_v)#1
+# Loading unisim.fdrs(fdrs_v)#1
+# Loading unisim.fds(fds_v)#1
+# Loading unisim.fdr(fdr_v)#1
+# Loading unisim.xorcy(xorcy_v)#1
+# Loading unisim.muxcy(muxcy_v)#1
+# Loading unisim.mult18x18sio(mult18x18sio_v)#1
+# Loading unisim.fdre(fdre_v)#1
+# Loading unisim.muxf5(muxf5_v)#1
+# Loading unisim.fdre(fdre_v)#2
+# Loading unisim.fde(fde_v)#2
+# Loading unisim.ramb16_s18_s18(ramb16_s18_s18_v)#1
+# Loading unisim.srlc16e(srlc16e_v)#1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult2/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult2/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult1/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult1/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+do script.do
+# vsim -voptargs=+acc -t 10ns work.user_logic 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading proc_common_v2_00_a.proc_common_pkg(body)
+# Loading unisim.vcomponents
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading work.user_logic(imp)#1
+# Loading work.modulo(modulo_a)#1
+# Loading xilinxcorelib.prims_constants_v7_0
+# Loading xilinxcorelib.mult_const_pkg_v7_0
+# Loading xilinxcorelib.parm_v7_0_services(body)
+# Loading xilinxcorelib.ccm_v7_0_services(body)
+# Loading xilinxcorelib.sqm_v7_0_services(body)
+# Loading xilinxcorelib.mult_gen_v7_0_services(body)
+# Loading xilinxcorelib.cordic_pack_beh(body)
+# Loading xilinxcorelib.iputils_std_logic_arith(body)
+# Loading xilinxcorelib.iputils_std_logic_signed(body)
+# Loading xilinxcorelib.cordic_v3_0(behavioral)#1
+# Loading ieee.std_logic_signed(body)
+# Loading xilinxcorelib.prims_constants_v9_1
+# Loading xilinxcorelib.prims_utils_v9_1(body)
+# Loading xilinxcorelib.pkg_baseblox_v9_1(body)
+# Loading xilinxcorelib.pkg_mult_gen_v10_0(body)
+# Loading work.multiplier1(multiplier1_a)#1
+# Loading xilinxcorelib.mult_gen_v10_0(behavioral)#1
+# ** Note: returned a simple delay of 5
+#    Time: 0 ns  Iteration: 0  Region: /user_logic/mult1/u0  File: C:/simlab/./XilinxCoreLib/XilinxCoreLib_source.vhd
+# Loading work.multiplier2(multiplier2_a)#1
+# ** Note: returned a simple delay of 5
+#    Time: 0 ns  Iteration: 0  Region: /user_logic/mult2/u0  File: C:/simlab/./XilinxCoreLib/XilinxCoreLib_source.vhd
+# Loading work.xfft_v6_0(structure)#1
+# Loading unisim.vcc(vcc_v)#1
+# Loading unisim.gnd(gnd_v)#1
+# Loading unisim.fd(fd_v)#1
+# Loading unisim.srl16(srl16_v)#1
+# Loading unisim.fde(fde_v)#1
+# Loading unisim.srl16e(srl16e_v)#1
+# Loading unisim.lut2_l(lut2_l_v)#1
+# Loading unisim.lut4_l(lut4_l_v)#1
+# Loading unisim.ramb16_s9_s9(ramb16_s9_s9_v)#1
+# Loading unisim.inv(inv_v)#1
+# Loading unisim.lut1(lut1_v)#1
+# Loading unisim.lut2(lut2_v)#1
+# Loading unisim.lut3(lut3_v)#1
+# Loading unisim.lut4(lut4_v)#1
+# Loading unisim.fdrs(fdrs_v)#1
+# Loading unisim.fds(fds_v)#1
+# Loading unisim.fdr(fdr_v)#1
+# Loading unisim.xorcy(xorcy_v)#1
+# Loading unisim.muxcy(muxcy_v)#1
+# Loading unisim.mult18x18sio(mult18x18sio_v)#1
+# Loading unisim.fdre(fdre_v)#1
+# Loading unisim.muxf5(muxf5_v)#1
+# Loading unisim.fdre(fdre_v)#2
+# Loading unisim.fde(fde_v)#2
+# Loading unisim.ramb16_s18_s18(ramb16_s18_s18_v)#1
+# Loading unisim.srlc16e(srlc16e_v)#1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult2/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult2/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult1/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult1/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# Compile of user_logic.vhd was successful.
+do script.do
+# vsim -voptargs=+acc -t 10ns work.user_logic 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading proc_common_v2_00_a.proc_common_pkg(body)
+# Loading unisim.vcomponents
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# ** Warning: (vsim-3479) Time unit 'ns' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (10ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading work.user_logic(imp)#1
+# Loading work.modulo(modulo_a)#1
+# Loading xilinxcorelib.prims_constants_v7_0
+# Loading xilinxcorelib.mult_const_pkg_v7_0
+# Loading xilinxcorelib.parm_v7_0_services(body)
+# Loading xilinxcorelib.ccm_v7_0_services(body)
+# Loading xilinxcorelib.sqm_v7_0_services(body)
+# Loading xilinxcorelib.mult_gen_v7_0_services(body)
+# Loading xilinxcorelib.cordic_pack_beh(body)
+# Loading xilinxcorelib.iputils_std_logic_arith(body)
+# Loading xilinxcorelib.iputils_std_logic_signed(body)
+# Loading xilinxcorelib.cordic_v3_0(behavioral)#1
+# Loading ieee.std_logic_signed(body)
+# Loading xilinxcorelib.prims_constants_v9_1
+# Loading xilinxcorelib.prims_utils_v9_1(body)
+# Loading xilinxcorelib.pkg_baseblox_v9_1(body)
+# Loading xilinxcorelib.pkg_mult_gen_v10_0(body)
+# Loading work.multiplier1(multiplier1_a)#1
+# Loading xilinxcorelib.mult_gen_v10_0(behavioral)#1
+# ** Note: returned a simple delay of 5
+#    Time: 0 ns  Iteration: 0  Region: /user_logic/mult1/u0  File: C:/simlab/./XilinxCoreLib/XilinxCoreLib_source.vhd
+# Loading work.multiplier2(multiplier2_a)#1
+# ** Note: returned a simple delay of 5
+#    Time: 0 ns  Iteration: 0  Region: /user_logic/mult2/u0  File: C:/simlab/./XilinxCoreLib/XilinxCoreLib_source.vhd
+# Loading work.xfft_v6_0(structure)#1
+# Loading unisim.vcc(vcc_v)#1
+# Loading unisim.gnd(gnd_v)#1
+# Loading unisim.fd(fd_v)#1
+# Loading unisim.srl16(srl16_v)#1
+# Loading unisim.fde(fde_v)#1
+# Loading unisim.srl16e(srl16e_v)#1
+# Loading unisim.lut2_l(lut2_l_v)#1
+# Loading unisim.lut4_l(lut4_l_v)#1
+# Loading unisim.ramb16_s9_s9(ramb16_s9_s9_v)#1
+# Loading unisim.inv(inv_v)#1
+# Loading unisim.lut1(lut1_v)#1
+# Loading unisim.lut2(lut2_v)#1
+# Loading unisim.lut3(lut3_v)#1
+# Loading unisim.lut4(lut4_v)#1
+# Loading unisim.fdrs(fdrs_v)#1
+# Loading unisim.fds(fds_v)#1
+# Loading unisim.fdr(fdr_v)#1
+# Loading unisim.xorcy(xorcy_v)#1
+# Loading unisim.muxcy(muxcy_v)#1
+# Loading unisim.mult18x18sio(mult18x18sio_v)#1
+# Loading unisim.fdre(fdre_v)#1
+# Loading unisim.muxf5(muxf5_v)#1
+# Loading unisim.fdre(fdre_v)#2
+# Loading unisim.fde(fde_v)#2
+# Loading unisim.ramb16_s18_s18(ramb16_s18_s18_v)#1
+# Loading unisim.srlc16e(srlc16e_v)#1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult2/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult2/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult1/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /user_logic/mult1/u0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /user_logic/modulo/u0/gisq
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /user_logic
