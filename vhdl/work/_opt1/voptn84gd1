@@ -1,0 +1,247 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\fft_core
+T_opt
+Z1 VSjeVSniLOFG1DJhlJ0oed0
+Z2 04 10 3 work user_logic imp 1
+Z3 =1-0013cea8b27c-4c1fe7dc-24f-1d8
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 OE;O;6.4;39
+T_opt1
+Z6 VJF8^XTR]:1nhFnaBZ94a81
+R2
+Z7 =1-0013cea8b27c-4c252352-70-74c
+R4
+R5
+Emodulo
+Z8 w1277483376
+Z9 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z10 dC:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl
+Z11 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd
+Z12 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/modulo.vhd
+l0
+L43
+Z13 V`ZJJk7RXVlPJFo4FV19B;3
+Z14 OE;C;6.4;39
+32
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1
+Z17 !s100 @nDYP1n^@@8Y<AdUP8TcG2
+Amodulo_a
+Z18 DEx23 C:\simlab\XilinxCoreLib 11 cordic_v3_0 0 22 BUhnKEY5Q_GAYTE?zT_Z<0
+Z19 DPx21 C:\modeltech_6.4\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z20 DEx69 C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\work 6 modulo 0 22 `ZJJk7RXVlPJFo4FV19B;3
+32
+Z21 Mx1 21 C:\modeltech_6.4\ieee 14 std_logic_1164
+l95
+L51
+Z22 VA3><3WFWRGSdGPna@SX>m0
+R14
+R15
+R16
+Z23 !s100 j4R=J3k>ea5k8f6Ri7Cnm3
+Emultiplier1
+Z24 w1277482924
+R9
+R10
+Z25 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd
+Z26 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier1.vhd
+l0
+L43
+Z27 VMCeYVYdN0go:Cl4;mdhH60
+R14
+32
+R15
+R16
+Z28 !s100 I0]0:=Ia[DF>_P?iK1glm3
+Amultiplier1_a
+Z29 DPx23 C:\simlab\XilinxCoreLib 17 pkg_baseblox_v9_1 0 22 6Dl7aSi0zjQF^e?R20_Y62
+Z30 DPx23 C:\simlab\XilinxCoreLib 16 prims_utils_v9_1 0 22 4BW^_obEOBic2Jg6<^9e52
+Z31 DPx23 C:\simlab\XilinxCoreLib 20 prims_constants_v9_1 0 22 f[TEdfGVIC2IGlG:cVFnz2
+Z32 DPx20 C:\modeltech_6.4\std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z33 DPx23 C:\simlab\XilinxCoreLib 18 pkg_mult_gen_v10_0 0 22 2N:^SS3UjdgHzcWQ2U<UW1
+Z34 DPx21 C:\modeltech_6.4\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z35 DPx21 C:\modeltech_6.4\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z36 DPx21 C:\modeltech_6.4\ieee 16 std_logic_signed 0 22 <9<Kcl:S52:oW`F]FQhb20
+Z37 DEx23 C:\simlab\XilinxCoreLib 14 mult_gen_v10_0 0 22 FLS9?6K>X4l9=DcY8_O>c3
+R19
+Z38 DEx69 C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\work 11 multiplier1 0 22 MCeYVYdN0go:Cl4;mdhH60
+32
+Z39 Mx9 21 C:\modeltech_6.4\ieee 14 std_logic_1164
+Z40 Mx8 21 C:\modeltech_6.4\ieee 16 std_logic_signed
+Z41 Mx7 21 C:\modeltech_6.4\ieee 15 std_logic_arith
+Z42 Mx6 21 C:\modeltech_6.4\ieee 11 numeric_std
+Z43 Mx5 23 C:\simlab\XilinxCoreLib 18 pkg_mult_gen_v10_0
+Z44 Mx4 20 C:\modeltech_6.4\std 6 textio
+Z45 Mx3 23 C:\simlab\XilinxCoreLib 20 prims_constants_v9_1
+Z46 Mx2 23 C:\simlab\XilinxCoreLib 16 prims_utils_v9_1
+Z47 Mx1 23 C:\simlab\XilinxCoreLib 17 pkg_baseblox_v9_1
+l86
+L51
+Z48 V0P@3k7NGD_PC4VQnb7I3z1
+R14
+R15
+R16
+Z49 !s100 P71S3o>S5=EKiVYTVOU5m0
+Emultiplier2
+Z50 w1277482132
+R9
+R10
+Z51 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd
+Z52 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/multiplier2.vhd
+l0
+L43
+Z53 V0bn6^TV1XmZD@73e1]<2U2
+R14
+32
+R15
+R16
+Z54 !s100 6j6g]9Qjh:VaG?7G`CGg73
+Amultiplier2_a
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R19
+Z55 DEx69 C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\work 11 multiplier2 0 22 0bn6^TV1XmZD@73e1]<2U2
+32
+R39
+R40
+R41
+R42
+R43
+R44
+R45
+R46
+R47
+l86
+L51
+Z56 VBlR]DJ]3M]1b=FKJL1WT73
+R14
+R15
+R16
+Z57 !s100 W@IBHk=Gnz74?:OTFTV@H2
+Euser_logic
+Z58 w1277502266
+Z59 DPx30 C:\EDK_Lib\proc_common_v2_00_a 15 proc_common_pkg 0 22 mQkS[49VfNX_mj<izVm2I3
+R34
+Z60 DPx21 C:\modeltech_6.4\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R35
+R19
+32
+R10
+Z61 8C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd
+Z62 FC:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\user_logic.vhd
+l0
+L86
+Z63 VDSCAiICfQ39XokIe]@T:^0
+R14
+R15
+R16
+Z64 !s100 Bm:EaY8K<WeeaL[5:?:9>3
+Aimp
+Z65 DPx21 C:\modeltech_6.4\ieee 16 vital_primitives 0 22 E9g6AWKAc2T]enMfl94If3
+Z66 DPx21 C:\modeltech_6.4\ieee 12 vital_timing 0 22 OBWK>;kUYmkG<OChK2lhV1
+R32
+Z67 DPx16 C:\simlab\unisim 4 vpkg 0 22 c`ODGHjZUBfJB[MzVnOPF2
+Z68 DPx16 C:\simlab\unisim 11 vcomponents 0 22 D0<;n7J`2TNXbG3EYebJW1
+Z69 DEx69 C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\work 9 xfft_v6_0 0 22 InC0c<BVe;o1A[@FX=;Oz1
+R55
+R38
+R20
+R59
+R34
+R60
+R35
+R19
+Z70 DEx69 C:\Documents and Settings\Alejandro Merello\Desktop\fft-hdl\vhdl\work 10 user_logic 0 22 DSCAiICfQ39XokIe]@T:^0
+32
+Z71 Mx10 21 C:\modeltech_6.4\ieee 14 std_logic_1164
+Z72 Mx9 21 C:\modeltech_6.4\ieee 15 std_logic_arith
+Z73 Mx8 21 C:\modeltech_6.4\ieee 18 std_logic_unsigned
+Z74 Mx7 21 C:\modeltech_6.4\ieee 11 numeric_std
+Z75 Mx6 30 C:\EDK_Lib\proc_common_v2_00_a 15 proc_common_pkg
+Z76 Mx5 16 C:\simlab\unisim 11 vcomponents
+Z77 Mx4 16 C:\simlab\unisim 4 vpkg
+Z78 Mx3 20 C:\modeltech_6.4\std 6 textio
+Z79 Mx2 21 C:\modeltech_6.4\ieee 12 vital_timing
+Z80 Mx1 21 C:\modeltech_6.4\ieee 16 vital_primitives
+l191
+L129
+Z81 V6LM6igW:^oE<6jI_JO[aj1
+R14
+R15
+R16
+Z82 !s100 FmoLXQjLD4^C8YOHlC0o50
+Exfft_v6_0
+Z83 w1277430946
+Z84 DPx4 ieee 16 vital_primitives 0 22 E9g6AWKAc2T]enMfl94If3
+Z85 DPx4 ieee 12 vital_timing 0 22 OBWK>;kUYmkG<OChK2lhV1
+Z86 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z87 DPx6 unisim 4 vpkg 0 22 c`ODGHjZUBfJB[MzVnOPF2
+Z88 DPx6 unisim 11 vcomponents 0 22 D0<;n7J`2TNXbG3EYebJW1
+R9
+R10
+Z89 8C:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd
+Z90 FC:/Documents and Settings/Alejandro Merello/Desktop/fft-hdl/vhdl/xfft_v6_0.vhd
+l0
+L43
+Z91 VInC0c<BVe;o1A[@FX=;Oz1
+R14
+32
+R15
+R16
+Z92 !s100 @KT[gXi39MJJh?AQdOZjm1
+Astructure
+Z93 DEx16 C:\simlab\unisim 7 srlc16e 0 22 0Y>Xo9fSFRLSMd;IDMcjk0
+Z94 DEx16 C:\simlab\unisim 14 ramb16_s18_s18 0 22 U5[>;QRjjg6im]d4[7L<K0
+Z95 DEx16 C:\simlab\unisim 5 muxf5 0 22 c?Kff?0Q5laaR4WiADBOH3
+Z96 DEx16 C:\simlab\unisim 4 fdre 0 22 <SIjIo?JhVQUf7OIPGNVN1
+Z97 DEx16 C:\simlab\unisim 12 mult18x18sio 0 22 8Tg?lYgkSUlND0ddU_2;03
+Z98 DEx16 C:\simlab\unisim 5 muxcy 0 22 U?cLZ_J35Sa2<aPVIGE[43
+Z99 DEx16 C:\simlab\unisim 5 xorcy 0 22 >0?bmm`85ZbfQ0EAa;[`f2
+Z100 DEx16 C:\simlab\unisim 3 fdr 0 22 _AG<68G^h`nzAhR5oC7^e3
+Z101 DEx16 C:\simlab\unisim 3 fds 0 22 09OIF_d;W2=O0ACz^TlkB2
+Z102 DEx16 C:\simlab\unisim 4 fdrs 0 22 Y_6=[ZZBT77]I9l@5@O?O3
+Z103 DEx16 C:\simlab\unisim 4 lut4 0 22 C@A49<z;<<4bFfnkD@kXA2
+Z104 DEx16 C:\simlab\unisim 4 lut3 0 22 O0ZjgJie?BhNA<?l0N@bG2
+Z105 DEx16 C:\simlab\unisim 4 lut2 0 22 @ITTK`?66Z85PgeWSXcRh0
+Z106 DEx16 C:\simlab\unisim 4 lut1 0 22 <imP<UgI9?`idnE^5Fa682
+Z107 DEx16 C:\simlab\unisim 3 inv 0 22 h5fNLfEXBHO5E]`8nfboY2
+Z108 DEx16 C:\simlab\unisim 12 ramb16_s9_s9 0 22 DnjMKhZ9cICncY:PhWnFL0
+Z109 DEx16 C:\simlab\unisim 6 lut4_l 0 22 8da7YLL8cNmF:1C2jdOn]1
+Z110 DEx16 C:\simlab\unisim 6 lut2_l 0 22 ;QYm`JS7dAiY:Wz]]hGf32
+Z111 DEx16 C:\simlab\unisim 6 srl16e 0 22 2>Bz1[4[6jecKm7`cXLN_2
+Z112 DEx16 C:\simlab\unisim 3 fde 0 22 dTX_MC3hlaMN^0hb;lLk;2
+Z113 DEx16 C:\simlab\unisim 5 srl16 0 22 ANQgL6m30oQLS1hgW4OGN0
+Z114 DEx16 C:\simlab\unisim 2 fd 0 22 SJ:gZCIcXhnSZzdh5U3Hb0
+Z115 DEx16 C:\simlab\unisim 3 gnd 0 22 =gc@NiIRI6X@AQ>QV[c5d3
+Z116 DEx16 C:\simlab\unisim 3 vcc 0 22 V_4PNQDG6gOLNL08BY66b3
+R65
+R66
+R32
+R67
+R68
+R19
+R69
+32
+Z117 Mx6 21 C:\modeltech_6.4\ieee 14 std_logic_1164
+R76
+R77
+R78
+R79
+R80
+l4581
+L64
+Z118 V3oTQJSNom?ijlog_M8=z@0
+R14
+R15
+R16
+Z119 !s100 Q]ZUEJ[hd94Um^hHm:ZiF2
